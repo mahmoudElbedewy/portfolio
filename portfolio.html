@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="portfolio.css">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1005/1005141.png" type="image/png">
 </head>
 <body>
 
@@ -38,26 +39,30 @@
             <p>I'm a computer science student diving into web development, learning step by step.  
                 I explore new technologies, take courses, and build small projects to grow my skills.  
                 Just starting my journey, and I hope you'll join me along the way!</p>
-            <a href="#work" class="btn-neon">View My Work</a>
+            
+            <div class="hero-buttons">
+                <a href="#work" class="btn-neon">View My Work</a>
+                <a href="portfolio.pdf" download class="btn-neon btn-cv">Download CV <i class="fas fa-download"></i></a>
+            </div>
         </div>
     </section>
 
     <section id="skills" class="skills-section">
         <h2 class="section-title">My Tech Stack</h2>
         <div class="skills-container">
-<div class="skills-container">
-    <div class="skill-box"><i class="fab fa-html5"></i> <span>HTML5</span></div>
-    <div class="skill-box"><i class="fab fa-css3-alt"></i> <span>CSS3</span></div>
-    <div class="skill-box"><i class="fab fa-js"></i> <span>JavaScript</span></div>
-    <div class="skill-box"><i class="fab fa-sass"></i> <span>SASS</span></div> <div class="skill-box"><i class="fab fa-git-alt"></i> <span>Git & Github</span></div>
-    <div class="skill-box"><i class="fas fa-terminal"></i> <span>Command Line</span></div>
+            <div class="skill-box"><i class="fab fa-html5"></i> <span>HTML5</span></div>
+            <div class="skill-box"><i class="fab fa-css3-alt"></i> <span>CSS3</span></div>
+            <div class="skill-box"><i class="fab fa-js"></i> <span>JavaScript</span></div>
+            <div class="skill-box"><i class="fab fa-sass"></i> <span>SASS</span></div>
+            <div class="skill-box"><i class="fab fa-git-alt"></i> <span>Git & Github</span></div>
+            <div class="skill-box"><i class="fas fa-terminal"></i> <span>Command Line</span></div>
 
-    <div class="skill-box next-step">
-        <i class="fab fa-react fa-spin"></i>
-        <span>React.js</span>
-        <div class="status-badge">Loading...</div>
-    </div>
-</div>            </div>
+            <div class="skill-box next-step">
+                <i class="fab fa-react fa-spin"></i>
+                <span>React.js</span>
+                <div class="status-badge">Loading...</div>
+            </div>
+        </div>
     </section>
 
     <section id="work" class="work-section">
@@ -68,7 +73,7 @@
             <div class="card">
                 <div class="card-content">
                     <div class="card-icon"><i class="fas fa-shopping-bag"></i></div>
-                    <h3>E-Shop Landing</h3>
+                    <h3>TechNova Store</h3>
                     <p>Advanced E-commerce SPA featuring live search, debounced filtering, dark mode, and optimized data fetching using Promise.all.</p>
                     <div class="tags">
                         <span>ES6 Modules</span>
@@ -76,7 +81,7 @@
                         <span>Debouncing</span>
                         <span>Dark Mode</span>
                     </div>
-                    <a href="https://mahmoudelbedewy.github.io/project-1/index.html" class="card-link">See Project <i class="fas fa-arrow-right"></i></a>
+                    <a href="https://mahmoudelbedewy.github.io/project-1/index.html" target="_blank" class="card-link">See Project <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
             
@@ -84,14 +89,14 @@
                 <div class="card-content">
                     <div class="card-icon"><i class="fas fa-film"></i></div>
                     <h3>Movies Hub</h3>
-<p>Dynamic movie explorer integrating OMDB API. Features state persistence (Search/Watchlist), client-side filtering, and optimized concurrent fetching.</p>
+                    <p>Dynamic movie explorer integrating OMDB API. Features state persistence (Search/Watchlist), client-side filtering, and optimized concurrent fetching.</p>
                     <div class="tags">
                         <span>OMDB API</span>
                         <span>Async/Await</span>
                         <span>Local Storage</span>
                         <span>DOM Logic</span>
                     </div>
-                                        <a href="https://mahmoudelbedewy.github.io/project-2/index.html" class="card-link">See Project <i class="fas fa-arrow-right"></i></a>
+                    <a href="https://mahmoudelbedewy.github.io/project-2/index.html" target="_blank" class="card-link">See Project <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -106,7 +111,7 @@
                         <span>Dark/Light Mode</span>
                         <span>CRUD</span>
                     </div>
-                    <a href="https://mahmoudelbedewy.github.io/project-3/index.html" class="card-link">See Project <i class="fas fa-arrow-right"></i></a>
+                    <a href="https://mahmoudelbedewy.github.io/project-3/index.html" target="_blank" class="card-link">See Project <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -146,6 +151,7 @@
             <p>Designed & Built by <span class="highlight">Mahmoud Elbedewy</span> &copy; 2025</p>
         </footer>
     </section>
+
     <button id="scrollToTop" class="scroll-btn"><i class="fas fa-arrow-up"></i></button>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="portfolio.js"></script>
