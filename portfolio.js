@@ -91,4 +91,4 @@ sr.reveal('.hero-content', {delay: 200, origin: 'top'});
 sr.reveal('.section-title', {delay: 200, origin: 'left'});
 sr.reveal('.skill-box', {interval: 200, origin: 'bottom'}); 
 sr.reveal('.card', {interval: 200, origin: 'bottom'}); 
-sr.reveal('.contact-container', {delay: 200, origin: 'top'});
+sr.reveal('.contact-container', { delay: 200, origin: 'top' });

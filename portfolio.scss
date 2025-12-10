@@ -446,3 +446,8 @@ footer {
 .skill-box.next-step:hover {
     border-color: var(--primary);
 }
+@media (hover: none) {
+    .cursor, .cursor2 {
+        display: none !important;
+    }
+}
