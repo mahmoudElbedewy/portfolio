@@ -4,10 +4,11 @@
 
 ### A modern, immersive journey into my code universe.
 
-![Portfolio Preview](https://via.placeholder.com/800x400.png?text=Portfolio+Banner+Placeholder)
+![Portfolio Banner](https://via.placeholder.com/800x400.png?text=Mahmoud+Elbedewy+Portfolio)
+
 <p>
-    <a href="https://your-live-link.com"><strong>🚀 View Live Portfolio</strong></a> |
-    <a href="#-get-in-touch"><strong>📬 Get In Touch</strong></a>
+    <a href="https://mahmoudelbedewy.github.io/portfolio/"><strong>🚀 View Live Portfolio</strong></a> |
+    <a href="https://github.com/mahmoudElbedewy/portfolio"><strong>💻 Source Code</strong></a>
 </p>
 
 </div>
@@ -18,7 +19,7 @@
 
 Welcome to my personal portfolio! This project is a reflection of my journey as a software developer. It features a **Glassmorphism UI**, **Neon Aesthetics**, and interactive **3D animations** to provide a unique user experience.
 
-Beyond the visuals, this portfolio showcases my transition from frontend design to **Back-End Mastery**, highlighting my proficiency in building complete database-driven applications.
+Beyond the visuals, this portfolio showcases my transition from frontend design to **Back-End Mastery**, highlighting my proficiency in building complete database-driven applications using **Python** and **MySQL**.
 
 ---
 
@@ -61,7 +62,7 @@ This portfolio serves as a hub for my selected works:
 
 1.  **🛒 TechNova Store:** An advanced E-commerce SPA with a dynamic UI.
 2.  **🎬 Movies Hub:** A movie explorer app fetching data from external APIs.
-3.  **📝 To-Do Master:** A smart task management app (demonstrating logic & data handling).
+3.  **📝 To-Do Master:** A smart task management app powered by **Python** and **MySQL** for data persistence.
 
 ---
 
@@ -88,7 +89,7 @@ Want to see the code in action? Follow these steps:
 
 I am currently open to new opportunities, freelance projects, and collaborations.
 
-<p align="left">
+<p align="center">
 <a href="mailto:kahrabam706@gmail.com">
   <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
