@@ -1,176 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creative Portfolio</title>
-    <link rel="stylesheet" href="portfolio.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1005/1005141.png" type="image/png">
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/512/1005/1005141.png"
+      type="image/png"
+    />
+  </head>
+  <body>
     <div class="glow-bg"></div>
     <div class="cursor"></div>
     <div class="cursor2"></div>
 
     <nav>
-        <div class="logo">PORTFOLIO<span>.</span></div>
-        
-        <div class="menu-icon">
-            <i class="fas fa-bars"></i>
-        </div>
+      <div class="logo">PORTFOLIO<span>.</span></div>
 
-        <ul class="menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="mailto:kahrabam706@gmail.com?subject=Project Inquiry" class="nav-cta">Let's Talk</a></li>
-        </ul>
+      <div class="menu-icon">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a
+            href="mailto:kahrabam706@gmail.com?subject=Project Inquiry"
+            class="nav-cta"
+            >Let's Talk</a
+          >
+        </li>
+      </ul>
     </nav>
 
     <section id="home" class="hero">
-        <div class="content">
-            <h3>Hello, I'm <span class="highlight">Mahmoud Elbedewy</span></h3>
+      <div class="content">
+        <h3>Hello, I'm <span class="highlight">Mahmoud Elbedewy</span></h3>
 
-            <h1 class="glitch" data-text="A Beginner With Big Dreams">A Beginner With Big Dreams</h1>
+        <h1 class="glitch" data-text="A Beginner With Big Dreams">
+          A Beginner With Big Dreams
+        </h1>
 
-            <p>I'm a computer science student diving into web development, learning step by step.  
-                I explore new technologies, take courses, and build small projects to grow my skills.  
-                Just starting my journey, and I hope you'll join me along the way!</p>
-            
-            <div class="hero-buttons">
-                <a href="#work" class="btn-neon">View My Work</a>
-                <!-- <a href="portfolio.pdf" download class="btn-neon btn-cv">Download CV <i class="fas fa-download"></i></a> -->
-            </div>
+        <p>
+          I'm a computer science student diving into web development, learning
+          step by step. I explore new technologies, take courses, and build
+          small projects to grow my skills. Just starting my journey, and I hope
+          you'll join me along the way!
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#work" class="btn-neon">View My Work</a>
+          <!-- <a href="portfolio.pdf" download class="btn-neon btn-cv">Download CV <i class="fas fa-download"></i></a> -->
         </div>
+      </div>
     </section>
 
     <section id="skills" class="skills-section">
-        <h2 class="section-title">My Tech Stack</h2>
-        <div class="skills-container">
-            <div class="skill-box"><i class="fab fa-html5"></i> <span>HTML5</span></div>
-            <div class="skill-box"><i class="fab fa-css3-alt"></i> <span>CSS3</span></div>
-            <div class="skill-box"><i class="fab fa-js"></i> <span>JavaScript</span></div>
-            <div class="skill-box"><i class="fab fa-sass"></i> <span>SASS</span></div>
-            <div class="skill-box"><i class="fab fa-git-alt"></i> <span>Git & Github</span></div>
-            <div class="skill-box"><i class="fas fa-terminal"></i> <span>Command Line</span></div>
-
-            <div class="skill-box next-step">
-                <i class="fab fa-react fa-spin"></i>
-                <span>React.js</span>
-                <div class="status-badge">Loading...</div>
-            </div>
+      <h2 class="section-title">My Tech Stack</h2>
+      <div class="skills-container">
+        <div class="skill-box">
+          <i class="fab fa-html5"></i> <span>HTML5</span>
         </div>
+        <div class="skill-box">
+          <i class="fab fa-css3-alt"></i> <span>CSS3</span>
+        </div>
+        <div class="skill-box">
+          <i class="fab fa-js"></i> <span>JavaScript</span>
+        </div>
+        <div class="skill-box">
+          <i class="fab fa-sass"></i> <span>SASS</span>
+        </div>
+        <div class="skill-box">
+          <i class="fab fa-git-alt"></i> <span>Git & Github</span>
+        </div>
+        <div class="skill-box">
+          <i class="fas fa-terminal"></i> <span>Command Line</span>
+        </div>
+        <div class="skill-box">
+          <i class="fab fa-python"></i> <span>Python</span>
+        </div>
+        <div class="skill-box">
+          <i class="fas fa-database"></i> <span>MySQL</span>
+        </div>
+
+        <div class="skill-box next-step">
+          <i class="fab fa-react fa-spin"></i>
+          <span>React.js</span>
+          <div class="status-badge">Loading...</div>
+        </div>
+      </div>
     </section>
 
     <section id="work" class="work-section">
-        <h2 class="section-title">Selected Works</h2>
-        
-        <div class="cards-container">
-            
-            <div class="card">
-                <div class="card-content">
-                    <div class="card-icon"><i class="fas fa-shopping-bag"></i></div>
-                    <h3>TechNova Store</h3>
-                    <p>Advanced E-commerce SPA featuring live search, debounced filtering, dark mode, and optimized data fetching using Promise.all.</p>
-                    <div class="tags">
-                        <span>ES6 Modules</span>
-                        <span>Session Storage</span>
-                        <span>Debouncing</span>
-                        <span>Dark Mode</span>
-                    </div>
-                    <div class="card-buttons">
-                        <a href="https://mahmoudelbedewy.github.io/project-1/index.html" target="_blank" class="card-link">See Live <i class="fas fa-external-link-alt"></i></a>
-                        
-                        <a href="https://github.com/mahmoudElbedewy/project-1" target="_blank" class="github-repo-link" title="View Source Code">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="card">
-                <div class="card-content">
-                    <div class="card-icon"><i class="fas fa-film"></i></div>
-                    <h3>Movies Hub</h3>
-                    <p>Dynamic movie explorer integrating OMDB API. Features state persistence (Search/Watchlist), client-side filtering, and optimized concurrent fetching.</p>
-                    <div class="tags">
-                        <span>OMDB API</span>
-                        <span>Async/Await</span>
-                        <span>Local Storage</span>
-                        <span>DOM Logic</span>
-                    </div>
-                    <div class="card-buttons">
-                        <a href="https://mahmoudelbedewy.github.io/project-2/index.html" target="_blank" class="card-link">See Live <i class="fas fa-external-link-alt"></i></a>
-                        <a href="https://github.com/mahmoudElbedewy/project-2" target="_blank" class="github-repo-link" title="View Source Code">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
+      <h2 class="section-title">Selected Works</h2>
 
-            <div class="card">
-                <div class="card-content">
-                    <div class="card-icon"><i class="fas fa-check-circle"></i></div>
-                    <h3>To-Do Master</h3>
-                    <p>Advanced task management with local storage and drag-and-drop features.</p>
-                    <div class="tags">
-                        <span>Local Storage</span>
-                        <span>Drag & Drop</span>
-                        <span>Dark/Light Mode</span>
-                        <span>CRUD</span>
-                    </div>
-                    <div class="card-buttons">
-                        <a href="https://mahmoudelbedewy.github.io/project-3/index.html" target="_blank" class="card-link">See Live <i class="fas fa-external-link-alt"></i></a>
-                        <a href="https://github.com/mahmoudElbedewy/project-3" target="_blank" class="github-repo-link" title="View Source Code">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                </div>
+      <div class="cards-container">
+        <div class="card">
+          <div class="card-content">
+            <div class="card-icon"><i class="fas fa-shopping-bag"></i></div>
+            <h3>TechNova Store</h3>
+            <p>
+              Advanced E-commerce SPA featuring live search, debounced
+              filtering, dark mode, and optimized data fetching using
+              Promise.all.
+            </p>
+            <div class="tags">
+              <span>ES6 Modules</span>
+              <span>Session Storage</span>
+              <span>Debouncing</span>
+              <span>Dark Mode</span>
             </div>
+            <div class="card-buttons">
+              <a
+                href="https://mahmoudelbedewy.github.io/project-1/index.html"
+                target="_blank"
+                class="card-link"
+                >See Live <i class="fas fa-external-link-alt"></i
+              ></a>
 
+              <a
+                href="https://github.com/mahmoudElbedewy/project-1"
+                target="_blank"
+                class="github-repo-link"
+                title="View Source Code"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
         </div>
+
+        <div class="card">
+          <div class="card-content">
+            <div class="card-icon"><i class="fas fa-film"></i></div>
+            <h3>Movies Hub</h3>
+            <p>
+              Dynamic movie explorer integrating OMDB API. Features state
+              persistence (Search/Watchlist), client-side filtering, and
+              optimized concurrent fetching.
+            </p>
+            <div class="tags">
+              <span>OMDB API</span>
+              <span>Async/Await</span>
+              <span>Local Storage</span>
+              <span>DOM Logic</span>
+            </div>
+            <div class="card-buttons">
+              <a
+                href="https://mahmoudelbedewy.github.io/project-2/index.html"
+                target="_blank"
+                class="card-link"
+                >See Live <i class="fas fa-external-link-alt"></i
+              ></a>
+              <a
+                href="https://github.com/mahmoudElbedewy/project-2"
+                target="_blank"
+                class="github-repo-link"
+                title="View Source Code"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <div class="card-icon"><i class="fas fa-check-circle"></i></div>
+            <h3>To-Do Master</h3>
+            <p>
+              Advanced task management with local storage and drag-and-drop
+              features.
+            </p>
+            <div class="tags">
+              <span>Local Storage</span>
+              <span>Drag & Drop</span>
+              <span>Dark/Light Mode</span>
+              <span>CRUD</span>
+            </div>
+            <div class="card-buttons">
+              <a
+                href="https://mahmoudelbedewy.github.io/project-3/index.html"
+                target="_blank"
+                class="card-link"
+                >See Live <i class="fas fa-external-link-alt"></i
+              ></a>
+              <a
+                href="https://github.com/mahmoudElbedewy/project-3"
+                target="_blank"
+                class="github-repo-link"
+                title="View Source Code"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="contact" class="contact">
-        <div class="contact-container">
-            <h2>Let's create something legendary.</h2>
-            <p class="contact-text">
-                I'm currently looking for new opportunities and collaborations. 
-                Whether you have a question or just want to say hi, feel free to drop a message!
-            </p>
+      <div class="contact-container">
+        <h2>Let's create something legendary.</h2>
+        <p class="contact-text">
+          I'm currently looking for new opportunities and collaborations.
+          Whether you have a question or just want to say hi, feel free to drop
+          a message!
+        </p>
 
-            <div class="social-links">
-                <a href="https://github.com/mahmoudElbedewy" target="_blank" class="social-btn" title="GitHub">
-                    <i class="fab fa-github"></i>
-                </a>
+        <div class="social-links">
+          <a
+            href="https://github.com/mahmoudElbedewy"
+            target="_blank"
+            class="social-btn"
+            title="GitHub"
+          >
+            <i class="fab fa-github"></i>
+          </a>
 
-                <a href="https://www.linkedin.com/in/mahmoudelbedewy" target="_blank" class="social-btn" title="LinkedIn">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
+          <a
+            href="https://www.linkedin.com/in/mahmoudelbedewy"
+            target="_blank"
+            class="social-btn"
+            title="LinkedIn"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
 
-                <a href="https://wa.me/201033970532" target="_blank" class="social-btn" title="WhatsApp">
-                    <i class="fab fa-whatsapp"></i>
-                </a>
+          <a
+            href="https://wa.me/201033970532"
+            target="_blank"
+            class="social-btn"
+            title="WhatsApp"
+          >
+            <i class="fab fa-whatsapp"></i>
+          </a>
 
-                <a href="mailto:kahrabam706@gmail.com?subject=Project Inquiry" class="social-btn">
-                    <i class="fas fa-envelope"></i>
-                </a>
-            </div>
-
-            <a href="mailto:kahrabam706@gmail.com?subject=Project Inquiry" class="btn-neon contact-main-btn">Say Hello</a>
+          <a
+            href="mailto:kahrabam706@gmail.com?subject=Project Inquiry"
+            class="social-btn"
+          >
+            <i class="fas fa-envelope"></i>
+          </a>
         </div>
 
-        <footer>
-            <p>Designed & Built by <span class="highlight">Mahmoud Elbedewy</span> &copy; 2025</p>
-        </footer>
+        <a
+          href="mailto:kahrabam706@gmail.com?subject=Project Inquiry"
+          class="btn-neon contact-main-btn"
+          >Say Hello</a
+        >
+      </div>
+
+      <footer>
+        <p>
+          Designed & Built by
+          <span class="highlight">Mahmoud Elbedewy</span> &copy; 2025
+        </p>
+      </footer>
     </section>
 
-    <button id="scrollToTop" class="scroll-btn"><i class="fas fa-arrow-up"></i></button>
+    <button id="scrollToTop" class="scroll-btn">
+      <i class="fas fa-arrow-up"></i>
+    </button>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="portfolio.js"></script>
-
-</body>
+  </body>
 </html>
