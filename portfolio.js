@@ -254,6 +254,12 @@ function scrambleText(el, originalText) {
   }, 30);
 }
 
+document.addEventListener("visibilitychange", function() {
+  if (document.visibilityState === "visible") {
+    new Image().src = "https://mahmoudelbedewy.pythonanywhere.com/assets/me.png?v=" + new Date().getTime();
+  }
+});
+
 document.querySelectorAll('.section-title').forEach(title => {
   const originalText = title.textContent;
   const titleObserver = new IntersectionObserver((entries) => {
