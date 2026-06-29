@@ -35,6 +35,7 @@
         <li><a href="#home" class="nav-link">~/home</a></li>
         <li><a href="#about" class="nav-link">~/about</a></li>
         <li><a href="#skills" class="nav-link">~/skills</a></li>
+        <li><a href="#experience" class="nav-link">~/experience</a></li>
         <li><a href="#work" class="nav-link">~/work</a></li>
         <li><a href="#journey" class="nav-link">~/journey</a></li>
         <li><a href="#contact" class="nav-link">~/contact</a></li>
@@ -59,7 +60,8 @@
         <h1 class="glitch" data-text="Code. Build. Deploy.">Code. Build. Deploy.</h1>
 
         <p class="hero-desc">
-          Backend-first engineer building <strong>secure REST APIs</strong> with Python & Django 
+          Backend-first engineer building <strong>secure REST APIs</strong> with Python & Django,
+          architecting <strong>multi-agent AI systems</strong> with LangGraph & LLMs, 
           and <strong>high-performance frontends</strong> with Vanilla JavaScript.
           Containerizing apps with <strong>Docker</strong>, and working with <strong>PostgreSQL & Celery</strong>.
         </p>
@@ -72,12 +74,12 @@
 
         <div class="hero-stats">
           <div class="stat-item">
-            <span class="stat-num" data-target="3">0</span>
+            <span class="stat-num" data-target="4">0</span>
             <span class="stat-label">Projects Live</span>
           </div>
           <div class="stat-divider"></div>
           <div class="stat-item">
-            <span class="stat-num" data-target="15">0</span>
+            <span class="stat-num" data-target="25">0</span>
             <span class="stat-label">Technologies</span>
           </div>
           <div class="stat-divider"></div>
@@ -107,6 +109,7 @@
               &nbsp;&nbsp;&nbsp;&nbsp;<span class="t-str">"Backend Architecture"</span>,<br>
               &nbsp;&nbsp;&nbsp;&nbsp;<span class="t-str">"RESTful APIs"</span>,<br>
               &nbsp;&nbsp;&nbsp;&nbsp;<span class="t-str">"Docker & Containerization"</span>,<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="t-str">"Agentic AI / LangGraph"</span>,<br>
               &nbsp;&nbsp;&nbsp;&nbsp;<span class="t-str">"Frontend Performance"</span><br>
               &nbsp;&nbsp;],<br>
               &nbsp;&nbsp;<span class="t-key">"status"</span>: <span class="t-bool">true</span>,<br>
@@ -120,7 +123,7 @@
         <div class="floating-tags">
           <div class="ftag ftag-1"><i class="fab fa-python"></i> Python</div>
           <div class="ftag ftag-2"><i class="fas fa-server"></i> Django</div>
-          <div class="ftag ftag-3"><i class="fab fa-js"></i> JavaScript</div>
+          <div class="ftag ftag-3"><i class="fas fa-robot"></i> LangGraph</div>
           <div class="ftag ftag-4"><i class="fab fa-git-alt"></i> Git</div>
         </div>
       </div>
@@ -177,6 +180,13 @@
                 <span>Understands HTTP, TCP/IP, REST constraints</span>
               </div>
             </div>
+            <div class="trait-item">
+              <i class="fas fa-robot"></i>
+              <div>
+                <strong>Agentic AI Builder</strong>
+                <span>Multi-agent LLM systems with LangGraph & fallback routing</span>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -197,7 +207,7 @@
               </div>
               <div class="meta-item">
                 <span class="meta-label mono">education</span>
-                <span class="meta-val">FCAI Damietta University</span>
+                <span class="meta-val">FCAI Damietta Univ. — Grad. 2028</span>
               </div>
               <div class="meta-item">
                 <span class="meta-label mono">location</span>
@@ -205,7 +215,7 @@
               </div>
               <div class="meta-item">
                 <span class="meta-label mono">specialty</span>
-                <span class="meta-val">Backend & APIs</span>
+                <span class="meta-val">Backend, APIs & Agentic AI</span>
               </div>
             </div>
           </div>
@@ -223,6 +233,8 @@
       <div class="skills-tabs">
         <button class="skill-tab active" data-tab="frontend">Frontend</button>
         <button class="skill-tab" data-tab="backend">Backend</button>
+        <button class="skill-tab" data-tab="ai">AI & LLM</button>
+        <button class="skill-tab" data-tab="architecture">Architecture</button>
         <button class="skill-tab" data-tab="tools">Tools & DevOps</button>
       </div>
 
@@ -240,11 +252,49 @@
           <div class="skill-box"><i class="fab fa-python"></i> <span>Python</span></div>
           <div class="skill-box"><i class="fas fa-server"></i> <span>Django</span></div>
           <div class="skill-box"><i class="fas fa-network-wired"></i> <span>Django REST</span></div>
-          <div class="skill-box"><i class="fas fa-exchange-alt"></i> <span>RESTful APIs</span></div>
+          <div class="skill-box"><i class="fas fa-bolt"></i> <span>Django Channels</span></div>
+          <div class="skill-box"><i class="fas fa-exchange-alt"></i> <span>WebSockets</span></div>
+          <div class="skill-box"><i class="fas fa-key"></i> <span>JWT (SimpleJWT)</span></div>
+          <div class="skill-box"><i class="fas fa-unlock-alt"></i> <span>OAuth 2.0</span></div>
           <div class="skill-box"><i class="fas fa-database"></i> <span>MySQL</span></div>
-          <div class="skill-box"><i class="fas fa-memory"></i> <span>Redis & Caching</span></div>
           <div class="skill-box"><i class="fas fa-database"></i> <span>PostgreSQL</span></div>
+          <div class="skill-box"><i class="fas fa-memory"></i> <span>Redis & Caching</span></div>
           <div class="skill-box"><i class="fas fa-tasks"></i> <span>Celery</span></div>
+          <div class="skill-box"><i class="fas fa-lock"></i> <span>Pessimistic Locking</span></div>
+          <div class="skill-box"><i class="fas fa-layer-group"></i> <span>DB Sharding & Replicas</span></div>
+        </div>
+      </div>
+
+      <div class="skills-panel" id="tab-ai">
+        <div class="skills-container">
+          <div class="skill-box"><i class="fas fa-link"></i> <span>LangChain</span></div>
+          <div class="skill-box"><i class="fas fa-sitemap"></i> <span>LangGraph</span></div>
+          <div class="skill-box"><i class="fas fa-brain"></i> <span>Gemini 2.5</span></div>
+          <div class="skill-box"><i class="fas fa-microchip"></i> <span>Groq (LLaMA 3.3)</span></div>
+          <div class="skill-box"><i class="fas fa-route"></i> <span>OpenRouter</span></div>
+          <div class="skill-box"><i class="fas fa-search"></i> <span>Tavily Search</span></div>
+          <div class="skill-box"><i class="fas fa-vector-square"></i> <span>FAISS / RAG</span></div>
+          <div class="skill-box"><i class="fas fa-users-cog"></i> <span>Multi-Agent Orchestration</span></div>
+          <div class="skill-box"><i class="fas fa-eye"></i> <span>Multimodal AI</span></div>
+          <div class="skill-box"><i class="fas fa-comment-dots"></i> <span>Prompt Engineering</span></div>
+        </div>
+      </div>
+
+      <div class="skills-panel" id="tab-architecture">
+        <div class="skills-container">
+          <div class="skill-box"><i class="fas fa-shield-alt"></i> <span>Circuit Breaker</span></div>
+          <div class="skill-box"><i class="fas fa-compress-arrows-alt"></i> <span>Map-Reduce Summarization</span></div>
+          <div class="skill-box"><i class="fas fa-file-pdf"></i> <span>Hybrid PDF Extraction</span></div>
+          <div class="skill-box"><i class="fas fa-random"></i> <span>LLM Routing & Fallback</span></div>
+          <div class="skill-box"><i class="fas fa-language"></i> <span>Arabic NLP Normalization</span></div>
+          <div class="skill-box"><i class="fas fa-stream"></i> <span>Async Task Queues</span></div>
+          <div class="skill-box"><i class="fas fa-balance-scale"></i> <span>Load Balancing</span></div>
+          <div class="skill-box"><i class="fas fa-arrows-alt-h"></i> <span>Horizontal/Vertical Scaling</span></div>
+          <div class="skill-box"><i class="fas fa-bullhorn"></i> <span>Message Queues</span></div>
+          <div class="skill-box"><i class="fas fa-tachometer-alt"></i> <span>Rate Limiting</span></div>
+          <div class="skill-box"><i class="fas fa-door-open"></i> <span>API Gateway</span></div>
+          <div class="skill-box"><i class="fas fa-cloud"></i> <span>CDN & High Availability</span></div>
+          <div class="skill-box"><i class="fas fa-chart-pie"></i> <span>CAP Theorem</span></div>
         </div>
       </div>
 
@@ -257,6 +307,31 @@
             <i class="fab fa-docker"></i>
             <span>Docker</span>
           </div>
+          <div class="skill-box"><i class="fas fa-infinity"></i> <span>CI/CD</span></div>
+          <div class="skill-box"><i class="fas fa-file-code"></i> <span>Swagger / OpenAPI</span></div>
+          <div class="skill-box"><i class="fas fa-plug"></i> <span>Webhooks & HMAC</span></div>
+          <div class="skill-box"><i class="fab fa-whatsapp"></i> <span>Twilio</span></div>
+          <div class="skill-box"><i class="fas fa-cogs"></i> <span>Odoo ERP (XML-RPC)</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section id="experience" class="journey-section">
+      <div class="section-header">
+        <span class="section-index mono">03 /</span>
+        <h2 class="section-title">Experience</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="tl-item tl-active">
+          <div class="tl-dot active-dot"><i class="fas fa-rocket"></i></div>
+          <div class="tl-content">
+            <span class="tl-date mono">July 2026 — Now</span>
+            <h4>Backend AI Engineering Intern — FlyRank.AI</h4>
+            <p>Accepted into the Backend AI Engineering track in the July 2026 cohort — a production-focused AI internship with a verifiable credential. Contributing to backend development and AI integration tasks, applying Django, REST APIs, and LangGraph-based agentic systems in a real production environment. Collaborating on multi-agent workflows, LLM orchestration, and real-time streaming features as part of the cohort launch cycle.</p>
+            <div class="tl-tags"><span>Django</span><span>LangGraph</span><span>REST APIs</span><span>LLM Orchestration</span></div>
+          </div>
         </div>
       </div>
     </section>
@@ -264,17 +339,17 @@
     <!-- ===== WORK ===== -->
     <section id="work" class="work-section">
       <div class="section-header">
-        <span class="section-index mono">03 /</span>
+        <span class="section-index mono">04 /</span>
         <h2 class="section-title">Selected Works</h2>
       </div>
 
       <div class="cards-container">
 
-        <!-- Card 1 -->
+        <!-- Card 1: SALY -->
         <div class="card" data-tilt>
           <div class="card-preview">
             <video autoplay loop muted playsinline class="card-video">
-              <source src="Screenity video - Apr 15, 2026, 10 50 PM.mp4" type="video/mp4">
+              <source src="saly.mp4" type="video/mp4">
             </video>
             <div class="card-status live">● Live</div>
           </div>
@@ -282,15 +357,15 @@
             <div class="card-meta">
               <span class="mono card-num">01</span>
               <div class="card-links-top">
-              <a href="https://mahmoudelbedewy.pythonanywhere.com/go?t=technova_live" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
-              <a href="https://mahmoudelbedewy.pythonanywhere.com/go?t=technova_code" target="_blank" title="Source Code"><i class="fab fa-github"></i></a>              </div>
+              <a href="https://mahmoudelbedewy.pythonanywhere.com/go?t=saly_live" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+              <a href="https://mahmoudelbedewy.pythonanywhere.com/go?t=saly_code" target="_blank" title="Source Code"><i class="fab fa-github"></i></a>              </div>
             </div>
-            <h3>TechNova Store</h3>
-            <p>Full-stack E-commerce platform with custom authentication, dynamic REST APIs for cart &amp; wishlist, and session-based tracking — all wired to a Vanilla JS frontend.</p>
+            <h3>SALY — Personal AI Assistant</h3>
+            <p>A production-grade AI assistant on Django Channels with a 10+ model multi-LLM architecture and circuit-breaker fallback chains across Gemini 2.5, Groq, and OpenRouter. Routes queries through a LangGraph Supervisor multi-agent system with a hybrid intent classifier, persistent per-user memory, hybrid PDF extraction (PyPDF + Gemini Vision OCR), and real-time token streaming over WebSocket.</p>
             <div class="tags">
-              <span>Django</span><span>REST API</span><span>Vanilla JS</span><span>Sessions</span><span>Fetch API</span>
+              <span>Django Channels</span><span>LangGraph</span><span>Gemini 2.5</span><span>Groq</span><span>OpenRouter</span><span>WebSocket</span>
             </div>
-            <a href="https://mahmoudelbedewy.pythonanywhere.com/go?t=technova_live" target="_blank" class="card-cta">
+            <a href="https://mahmoudelbedewy.pythonanywhere.com/go?t=saly_live" target="_blank" class="card-cta">
               View Project <i class="fas fa-arrow-right"></i>
             </a>
           </div>
@@ -300,7 +375,7 @@
         <div class="card" data-tilt>
           <div class="card-preview">
             <video autoplay loop muted playsinline class="card-video">
-              <source src="CineVerse — Apr 15, 10 57 PM.mp4" type="video/mp4">
+              <source src="Screenity video - Apr 15, 2026, 10 50 PM.mp4" type="video/mp4">
             </video>
             <div class="card-status live">● Live</div>
           </div>
@@ -308,18 +383,15 @@
             <div class="card-meta">
               <span class="mono card-num">02</span>
               <div class="card-links-top">
-              <a href="https://mahmoudelbedewy.pythonanywhere.com/go?t=movies_live" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
-              <a href="https://mahmoudelbedewy.pythonanywhere.com/go?t=movies_code" target="_blank" title="Source Code"><i class="fab fa-github"></i></a>              </div>
+              <a href="https://mahmoudelbedewy.pythonanywhere.com/go?t=technova_live" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+              <a href="https://mahmoudelbedewy.pythonanywhere.com/go?t=technova_code" target="_blank" title="Source Code"><i class="fab fa-github"></i></a>              </div>
             </div>
-            <h3>Movies Hub</h3>
-            <p>An AI-powered movie discovery platform integrating Gemini 2.5 and OMDB APIs. Features a sleek Glassmorphism frontend (Vanilla JS) backed by a secure Django/DRF backend with JWT-authenticated watchlists and advanced filtering.</p>
+            <h3>TechNova Store</h3>
+            <p>Production-ready e-commerce backend with 20+ documented REST APIs (products, cart, wishlist, reviews, orders), OAuth 2.0 social login, and Swagger/OpenAPI docs. Atomic checkout workflow with real-time stock validation and pessimistic locking on inventory eliminates overselling under concurrent load. Twilio WhatsApp order notifications with delivery-status webhooks and admin retry support.</p>
             <div class="tags">
-              <span>Django</span>
-              <span>Vanilla JS</span>
-              <span>Gemini 2.5</span>
-              <span>JWT Auth</span>
-              <span>OMDB API</span>           </div>
-            <a href="https://mahmoudelbedewy.pythonanywhere.com/go?t=movies_live" target="_blank" class="card-cta">
+              <span>Django</span><span>REST API</span><span>OAuth 2.0</span><span>Pessimistic Locking</span><span>Twilio</span>
+            </div>
+            <a href="https://mahmoudelbedewy.pythonanywhere.com/go?t=technova_live" target="_blank" class="card-cta">
               View Project <i class="fas fa-arrow-right"></i>
             </a>
           </div>
@@ -328,12 +400,42 @@
         <!-- Card 3 -->
         <div class="card" data-tilt>
           <div class="card-preview">
-            <img src="Screenshot 2026-04-15 233007.png" alt="To-Do Master Preview" class="card-image">
+            <video autoplay loop muted playsinline class="card-video">
+              <source src="CineVerse — Apr 15, 10 57 PM.mp4" type="video/mp4">
+            </video>
             <div class="card-status live">● Live</div>
           </div>
           <div class="card-content">
             <div class="card-meta">
               <span class="mono card-num">03</span>
+              <div class="card-links-top">
+              <a href="https://mahmoudelbedewy.pythonanywhere.com/go?t=movies_live" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+              <a href="https://mahmoudelbedewy.pythonanywhere.com/go?t=movies_code" target="_blank" title="Source Code"><i class="fab fa-github"></i></a>              </div>
+            </div>
+            <h3>Movies Hub</h3>
+            <p>An AI-powered movie discovery platform with a custom email-based user model and full JWT auth flow (registration, login, refresh, blacklist logout). Integrates OMDb API for search and detail retrieval, plus a LangChain-powered AI Movie Agent with tool-calling, conversation memory, and RAG-based recommendations — documented end-to-end with Swagger/ReDoc.</p>
+            <div class="tags">
+              <span>Django</span>
+              <span>Vanilla JS</span>
+              <span>LangChain</span>
+              <span>RAG</span>
+              <span>JWT Auth</span>
+              <span>OMDB API</span>           </div>
+            <a href="https://mahmoudelbedewy.pythonanywhere.com/go?t=movies_live" target="_blank" class="card-cta">
+              View Project <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card" data-tilt>
+          <div class="card-preview">
+            <img src="Screenshot 2026-04-15 233007.png" alt="To-Do Master Preview" class="card-image">
+            <div class="card-status live">● Live</div>
+          </div>
+          <div class="card-content">
+            <div class="card-meta">
+              <span class="mono card-num">04</span>
               <div class="card-links-top">
                 <a href="https://mahmoudelbedewy.github.io/project-3/index.html" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
                 <a href="https://github.com/mahmoudElbedewy/project-3" target="_blank" title="Source Code"><i class="fab fa-github"></i></a>
@@ -360,7 +462,7 @@
     <!-- ===== JOURNEY / TIMELINE ===== -->
     <section id="journey" class="journey-section">
       <div class="section-header">
-        <span class="section-index mono">04 /</span>
+        <span class="section-index mono">05 /</span>
         <h2 class="section-title">My Journey</h2>
       </div>
 
@@ -413,7 +515,7 @@
     <section id="contact" class="contact">
       <div class="contact-bg-text">CONTACT</div>
       <div class="contact-container">
-        <span class="section-index mono">05 /</span>
+        <span class="section-index mono">06 /</span>
         <h2>Let's build something <span class="highlight">legendary.</span></h2>
         <p class="contact-text">
           I'm actively looking for new opportunities and collaborations. If you have a project, a role, or just want to talk code — my inbox is always open.
@@ -441,7 +543,7 @@
 
       <footer>
         <p>Designed &amp; Built by <span class="highlight">Mahmoud Elbedewy</span> &copy; 2026</p>
-        <p class="mono footer-stack">// Django · REST · Docker · Vanilla JS · CSS · Git · PostgreSQL · Celery</p>
+        <p class="mono footer-stack">// Django · LangGraph · REST · Docker · Vanilla JS · CSS · Git · PostgreSQL · Celery</p>
       </footer>
     </section>
 
